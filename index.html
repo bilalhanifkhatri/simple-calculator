@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Airthmatic Calculator</h1>
+    <div class="allDiv" >
+        <div class="inputFields">
+            <input id="num1" type="number" placeholder="Number 1">
+            <input id="num2" type="number" placeholder="Number 2">
+        </div>
+        <div class="buttons">
+            <button onclick="doCalculation('+'); return false">Add</button>
+            <button onclick="doCalculation('-'); return false">Sub</button>
+            <button onclick="doCalculation('*'); return false">Mul</button>
+            <button onclick="doCalculation('/'); return false">Div</button>
+            <button onclick="doCalculation('%'); return false">Mod</button>
+            <!-- <button onclick="add(); return false">Add</button>
+            <button onclick="sub(); return false">Sub</button>
+            <button onclick="mul(); return false">Mul</button>
+            <button onclick="div(); return false">Div</button>
+            <button onclick="mod(); return false">Mod</button> -->
+        </div>
+        <h3 id="result"></h3>
+    </div>
+    <script src="./script.js">
+        // // let num1 = +document.querySelector('#num1').value;
+        // // let num2 = +document.querySelector('#num2').value;
+        // // let result = 0;
+        // function add() {
+        //     let num1 = +document.querySelector('#num1').value;
+        //     let num2 = +document.querySelector('#num2').value;
+        //     let result = 0;
+        //     result = num1 + num2;
+        //     document.querySelector('#result').innerHTML = result;
+        // }
+        // function sub() {
+        //     let num1 = +document.querySelector('#num1').value;
+        //     let num2 = +document.querySelector('#num2').value;
+        //     let result = 0;
+        //     result = num1 - num2;
+        //     document.querySelector('#result').innerHTML = result;
+        // }
+        // function mul() {
+        //     let num1 = +document.querySelector('#num1').value;
+        //     let num2 = +document.querySelector('#num2').value;
+        //     let result = 0;
+        //     result = num1 * num2;
+        //     document.querySelector('#result').innerHTML = result;
+        // }
+        // function div() {
+        //     let num1 = +document.querySelector('#num1').value;
+        //     let num2 = +document.querySelector('#num2').value;
+        //     let result = 0;
+        //     result = num1 / num2;
+        //     document.querySelector('#result').innerHTML = result;
+        // }
+        // function mod() {
+        //     let num1 = +document.querySelector('#num1').value;
+        //     let num2 = +document.querySelector('#num2').value;
+        //     let result = 0;
+        //     result = num1 % num2;
+        //     document.querySelector('#result').innerHTML = result;
+        // }
+    </script>
+
+    <!-- <script src="./script.js"></script> -->
+</body>
+
+</html>
