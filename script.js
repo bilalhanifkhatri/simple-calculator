@@ -12,6 +12,13 @@ function doCalculation(operator) {
         result = num1 / num2;
     } else if (operator === '%') {
         result = num1 % num2;
+    } else if (operator === 'e/o') {
+        let num = num1 % 2 ;
+        if(num === 1) {
+            result = "It's an Odd Number"
+        }else {
+            result = "It's an Even Number"
+        }
     }
     document.querySelector('#result').innerHTML = result;
 }
